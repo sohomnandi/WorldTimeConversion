@@ -1,0 +1,1869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Africa/Abidjan" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Accra" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Addis_Ababa" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Algiers" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Asmara" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Asmera" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Bamako" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Bangui" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Banjul" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Bissau" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Blantyre" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Brazzaville" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Bujumbura" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Cairo" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Casablanca" xml:space="preserve">
+    <value>+00:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Ceuta" xml:space="preserve">
+    <value>+01:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Conakry" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Dakar" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Dar_es_Salaam" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Djibouti" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Douala" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/El_Aaiun" xml:space="preserve">
+    <value>+00:00,+01:00;MarFourthSat,JunFirstSun</value>
+  </data>
+  <data name="Africa/Freetown" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Gaborone" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Harare" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Johannesburg" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Juba" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Kampala" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Khartoum" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Kigali" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Kinshasa" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Lagos" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Libreville" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Lome" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Luanda" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Lubumbashi" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Lusaka" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Malabo" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Maputo" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Maseru" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Mbabane" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Mogadishu" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Monrovia" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Nairobi" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Africa/Ndjamena" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Niamey" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Nouakchott" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Ouagadougou" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Porto-Novo" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Sao_Tome" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Timbuktu" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Africa/Tripoli" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Africa/Tunis" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Africa/Windhoek" xml:space="preserve">
+    <value>+01:00,+02:00;AprFirstSat,SepFirstSun</value>
+  </data>
+  <data name="America/Adak" xml:space="preserve">
+    <value>-10:00,-09:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Anchorage" xml:space="preserve">
+    <value>-09:00,-08:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Anguilla" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Antigua" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Araguaina" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Buenos_Aires" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Catamarca" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/ComodRivadavia" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Cordoba" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Jujuy" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/La_Rioja" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Mendoza" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Rio_Gallegos" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Salta" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/San_Juan" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/San_Luis" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Tucuman" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Argentina/Ushuaia" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Aruba" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Asuncion" xml:space="preserve">
+    <value>-04:00,-03:00;MarLastSat,OctFirstSun</value>
+  </data>
+  <data name="America/Atikokan" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Atka" xml:space="preserve">
+    <value>-10:00,-09:00;,</value>
+  </data>
+  <data name="America/Bahia" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Bahia_Banderas" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Barbados" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Belem" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Belize" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="America/Blanc-Sablon" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Boa_Vista" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Bogota" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Boise" xml:space="preserve">
+    <value>-07:00,-06:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Buenos_Aires" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Cambridge_Bay" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="America/Campo_Grande" xml:space="preserve">
+    <value>-04:00,-03:00;FebThirdSat,OctThirdSun</value>
+  </data>
+  <data name="America/Cancun" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Caracas" xml:space="preserve">
+    <value>-04:30,-04:30;,</value>
+  </data>
+  <data name="America/Catamarca" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Cayenne" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Cayman" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Chicago" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Chihuahua" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="America/Coral_Harbour" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Cordoba" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Costa_Rica" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="America/Creston" xml:space="preserve">
+    <value>-07:00,-07:00;,</value>
+  </data>
+  <data name="America/Cuiaba" xml:space="preserve">
+    <value>-04:00,-03:00;FebThirdSat,OctThirdSun</value>
+  </data>
+  <data name="America/Curacao" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Danmarkshavn" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="America/Dawson" xml:space="preserve">
+    <value>-08:00,-07:00;,</value>
+  </data>
+  <data name="America/Dawson_Creek" xml:space="preserve">
+    <value>-07:00,-07:00;,</value>
+  </data>
+  <data name="America/Denver" xml:space="preserve">
+    <value>-07:00,-06:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Detroit" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Dominica" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Edmonton" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="America/Eirunepe" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/El_Salvador" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="America/Ensenada" xml:space="preserve">
+    <value>-08:00,-07:00;,</value>
+  </data>
+  <data name="America/Fortaleza" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Fort_Nelson" xml:space="preserve">
+    <value>-07:00,-07:00;,</value>
+  </data>
+  <data name="America/Fort_Wayne" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Glace_Bay" xml:space="preserve">
+    <value>-04:00,-03:00;,</value>
+  </data>
+  <data name="America/Godthab" xml:space="preserve">
+    <value>-03:00,-02:00;,</value>
+  </data>
+  <data name="America/Goose_Bay" xml:space="preserve">
+    <value>-04:00,-03:00;,</value>
+  </data>
+  <data name="America/Grand_Turk" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Grenada" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Guadeloupe" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Guatemala" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="America/Guayaquil" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Guyana" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Halifax" xml:space="preserve">
+    <value>-04:00,-03:00;,</value>
+  </data>
+  <data name="America/Havana" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Hermosillo" xml:space="preserve">
+    <value>-07:00,-07:00;,</value>
+  </data>
+  <data name="America/Indiana/Indianapolis" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Indiana/Knox" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Indiana/Marengo" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Indiana/Petersburg" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Indiana/Tell_City" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Indiana/Vevay" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Indiana/Vincennes" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Indiana/Winamac" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Indianapolis" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Inuvik" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="America/Iqaluit" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Jamaica" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Jujuy" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Juneau" xml:space="preserve">
+    <value>-09:00,-08:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Kentucky/Louisville" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Kentucky/Monticello" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Knox_IN" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Kralendijk" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/La_Paz" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Lima" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Los_Angeles" xml:space="preserve">
+    <value>-08:00,-07:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Louisville" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Lower_Princes" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Maceio" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Managua" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="America/Manaus" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Marigot" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Martinique" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Matamoros" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Mazatlan" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="America/Mendoza" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Menominee" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Merida" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Metlakatla" xml:space="preserve">
+    <value>-08:00,-08:00;,</value>
+  </data>
+  <data name="America/Mexico_City" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Miquelon" xml:space="preserve">
+    <value>-03:00,-02:00;,</value>
+  </data>
+  <data name="America/Moncton" xml:space="preserve">
+    <value>-04:00,-03:00;,</value>
+  </data>
+  <data name="America/Monterrey" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Montevideo" xml:space="preserve">
+    <value>-03:00,-02:00;,</value>
+  </data>
+  <data name="America/Montreal" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Montserrat" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Nassau" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/New_York" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Nipigon" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Nome" xml:space="preserve">
+    <value>-09:00,-08:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Noronha" xml:space="preserve">
+    <value>-02:00,-02:00;,</value>
+  </data>
+  <data name="America/North_Dakota/Beulah" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/North_Dakota/Center" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/North_Dakota/New_Salem" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Ojinaga" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="America/Panama" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Pangnirtung" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Paramaribo" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Phoenix" xml:space="preserve">
+    <value>-07:00,-07:00;,</value>
+  </data>
+  <data name="America/Port-au-Prince" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Porto_Acre" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Porto_Velho" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Port_of_Spain" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Puerto_Rico" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Rainy_River" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Rankin_Inlet" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Recife" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Regina" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="America/Resolute" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Rio_Branco" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="America/Rosario" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Santarem" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Santa_Isabel" xml:space="preserve">
+    <value>-08:00,-07:00;,</value>
+  </data>
+  <data name="America/Santiago" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="America/Santo_Domingo" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Sao_Paulo" xml:space="preserve">
+    <value>-03:00,-02:00;FebThirdSat,OctThirdSun</value>
+  </data>
+  <data name="America/Scoresbysund" xml:space="preserve">
+    <value>-01:00,+00:00;,</value>
+  </data>
+  <data name="America/Shiprock" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="America/Sitka" xml:space="preserve">
+    <value>-09:00,-08:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/St_Barthelemy" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/St_Johns" xml:space="preserve">
+    <value>-03:30,-02:30;,</value>
+  </data>
+  <data name="America/St_Kitts" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/St_Lucia" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/St_Thomas" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/St_Vincent" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Swift_Current" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="America/Tegucigalpa" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="America/Thule" xml:space="preserve">
+    <value>-04:00,-03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="America/Thunder_Bay" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Tijuana" xml:space="preserve">
+    <value>-08:00,-07:00;,</value>
+  </data>
+  <data name="America/Toronto" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="America/Tortola" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Vancouver" xml:space="preserve">
+    <value>-08:00,-07:00;,</value>
+  </data>
+  <data name="America/Virgin" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="America/Whitehorse" xml:space="preserve">
+    <value>-08:00,-07:00;,</value>
+  </data>
+  <data name="America/Winnipeg" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="America/Yakutat" xml:space="preserve">
+    <value>-09:00,-08:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="America/Yellowknife" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="Antarctica/Casey" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Antarctica/Davis" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Antarctica/DumontDUrville" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Antarctica/Macquarie" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Antarctica/Mawson" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Antarctica/McMurdo" xml:space="preserve">
+    <value>+12:00,+13:00;,</value>
+  </data>
+  <data name="Antarctica/Palmer" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="Antarctica/Rothera" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="Antarctica/South_Pole" xml:space="preserve">
+    <value>+12:00,+13:00;SepLastSat, AprFirstSat</value>
+  </data>
+  <data name="Antarctica/Syowa" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Antarctica/Troll" xml:space="preserve">
+    <value>+00:00,+02:00;Mar1stXXX,Nov7thXXX</value>
+  </data>
+  <data name="Antarctica/Vostok" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Arctic/Longyearbyen" xml:space="preserve">
+    <value>+01:00,+02:00;,</value>
+  </data>
+  <data name="Asia/Aden" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Almaty" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Amman" xml:space="preserve">
+    <value>+02:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Anadyr" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Asia/Aqtau" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Aqtobe" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Ashgabat" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Ashkhabad" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Baghdad" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Bahrain" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Baku" xml:space="preserve">
+    <value>+04:00,+05:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Asia/Bangkok" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Beirut" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Asia/Bishkek" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Brunei" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Calcutta" xml:space="preserve">
+    <value>+05:30,+05:30;,</value>
+  </data>
+  <data name="Asia/Chita" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Choibalsan" xml:space="preserve">
+    <value>+08:00,+09:00;,</value>
+  </data>
+  <data name="Asia/Chongqing" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Chungking" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Colombo" xml:space="preserve">
+    <value>+05:30,+05:30;,</value>
+  </data>
+  <data name="Asia/Dacca" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Damascus" xml:space="preserve">
+    <value>+02:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Dhaka" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Dili" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Asia/Dubai" xml:space="preserve">
+    <value>+04:00,+04:00;,</value>
+  </data>
+  <data name="Asia/Dushanbe" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Gaza" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat,OctFourthFri</value>
+  </data>
+  <data name="Asia/Harbin" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Hebron" xml:space="preserve">
+    <value>+02:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Hong_Kong" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Hovd" xml:space="preserve">
+    <value>+07:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Ho_Chi_Minh" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Irkutsk" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Istanbul" xml:space="preserve">
+    <value>+02:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Jakarta" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Jayapura" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Asia/Jerusalem" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Asia/Kabul" xml:space="preserve">
+    <value>+04:30,+04:30;,</value>
+  </data>
+  <data name="Asia/Kamchatka" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Asia/Karachi" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Kashgar" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Kathmandu" xml:space="preserve">
+    <value>+05:45,+05:45;,</value>
+  </data>
+  <data name="Asia/Katmandu" xml:space="preserve">
+    <value>+05:45,+05:45;,</value>
+  </data>
+  <data name="Asia/Khandyga" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Asia/Kolkata" xml:space="preserve">
+    <value>+05:30,+05:30;,</value>
+  </data>
+  <data name="Asia/Krasnoyarsk" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Kuala_Lumpur" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Kuching" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Kuwait" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Macao" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Macau" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Magadan" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Asia/Makassar" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Manila" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Muscat" xml:space="preserve">
+    <value>+04:00,+04:00;,</value>
+  </data>
+  <data name="Asia/Nicosia" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Asia/Novokuznetsk" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Novosibirsk" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Omsk" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Oral" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Phnom_Penh" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Pontianak" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Pyongyang" xml:space="preserve">
+    <value>+08:30,+08:30;,</value>
+  </data>
+  <data name="Asia/Qatar" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Qyzylorda" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Rangoon" xml:space="preserve">
+    <value>+06:30,+06:30;,</value>
+  </data>
+  <data name="Asia/Riyadh" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Saigon" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Sakhalin" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Asia/Samarkand" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Seoul" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Asia/Shanghai" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Singapore" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Srednekolymsk" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Asia/Taipei" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Tashkent" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Tbilisi" xml:space="preserve">
+    <value>+04:00,+04:00;,</value>
+  </data>
+  <data name="Asia/Tehran" xml:space="preserve">
+    <value>+03:30,+04:30;Mar22ndXXX,Sep22ndXXX</value>
+  </data>
+  <data name="Asia/Tel_Aviv" xml:space="preserve">
+    <value>+02:00,+03:00;,</value>
+  </data>
+  <data name="Asia/Thimbu" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Thimphu" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Tokyo" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Asia/Ujung_Pandang" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Asia/Ulaanbaatar" xml:space="preserve">
+    <value>+08:00,+09:00;MarFourthFri,SepFourthSat</value>
+  </data>
+  <data name="Asia/Ulan_Bator" xml:space="preserve">
+    <value>+08:00,+09:00;,</value>
+  </data>
+  <data name="Asia/Urumqi" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Asia/Ust-Nera" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Asia/Vientiane" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Asia/Vladivostok" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Asia/Yakutsk" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Asia/Yekaterinburg" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Asia/Yerevan" xml:space="preserve">
+    <value>+04:00,+04:00;,</value>
+  </data>
+  <data name="Atlantic/Azores" xml:space="preserve">
+    <value>-01:00,+00:00;,</value>
+  </data>
+  <data name="Atlantic/Bermuda" xml:space="preserve">
+    <value>-04:00,-03:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Atlantic/Canary" xml:space="preserve">
+    <value>+00:00,+01:00;,</value>
+  </data>
+  <data name="Atlantic/Cape_Verde" xml:space="preserve">
+    <value>-01:00,-01:00;,</value>
+  </data>
+  <data name="Atlantic/Faeroe" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Atlantic/Faroe" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Atlantic/Jan_Mayen" xml:space="preserve">
+    <value>+01:00,+02:00;,</value>
+  </data>
+  <data name="Atlantic/Madeira" xml:space="preserve">
+    <value>+00:00,+01:00;,</value>
+  </data>
+  <data name="Atlantic/Reykjavik" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Atlantic/South_Georgia" xml:space="preserve">
+    <value>-02:00,-02:00;,</value>
+  </data>
+  <data name="Atlantic/Stanley" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="Atlantic/St_Helena" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Australia/ACT" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Adelaide" xml:space="preserve">
+    <value>+09:30,+10:30;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Brisbane" xml:space="preserve">
+    <value>+10:00,+10:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Broken_Hill" xml:space="preserve">
+    <value>+09:30,+10:30;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Canberra" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Currie" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Darwin" xml:space="preserve">
+    <value>+09:30,+09:30;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Eucla" xml:space="preserve">
+    <value>+08:45,+08:45;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Hobart" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/LHI" xml:space="preserve">
+    <value>+10:30,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Lindeman" xml:space="preserve">
+    <value>+10:00,+10:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Lord_Howe" xml:space="preserve">
+    <value>+10:30,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Melbourne" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/North" xml:space="preserve">
+    <value>+09:30,+09:30;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/NSW" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Perth" xml:space="preserve">
+    <value>+08:00,+08:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Queensland" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Australia/South" xml:space="preserve">
+    <value>+09:30,+10:30;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Sydney" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Tasmania" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/Victoria" xml:space="preserve">
+    <value>+10:00,+11:00;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Australia/West" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Australia/Yancowinna" xml:space="preserve">
+    <value>+09:30,+10:30;OctFirstSat,AprFirstSun</value>
+  </data>
+  <data name="Brazil/Acre" xml:space="preserve">
+    <value>-05:00,-05:00;Oct1stSat,FebThirdSun</value>
+  </data>
+  <data name="Brazil/DeNoronha" xml:space="preserve">
+    <value>-02:00,-02:00;Oct1stSat,FebThirdSun</value>
+  </data>
+  <data name="Brazil/East" xml:space="preserve">
+    <value>-03:00,-02:00;Oct1stSat,FebThirdSun</value>
+  </data>
+  <data name="Brazil/West" xml:space="preserve">
+    <value>-04:00,-04:00;Oct1stSat,FebThirdSun</value>
+  </data>
+  <data name="Canada/Atlantic" xml:space="preserve">
+    <value>-04:00,-03:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Canada/Central" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Canada/East-Saskatchewan" xml:space="preserve">
+    <value>-06:00,-06:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Canada/Eastern" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Canada/Mountain" xml:space="preserve">
+    <value>-07:00,-06:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Canada/Newfoundland" xml:space="preserve">
+    <value>-03:30,-02:30;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Canada/Pacific" xml:space="preserve">
+    <value>-08:00,-07:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Canada/Saskatchewan" xml:space="preserve">
+    <value>-06:00,-06:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Canada/Yukon" xml:space="preserve">
+    <value>-08:00,-07:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="CET" xml:space="preserve">
+    <value>+01:00,+02:00;,</value>
+  </data>
+  <data name="Chile/Continental" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="Chile/EasterIsland" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="CST6CDT" xml:space="preserve">
+    <value>-06:00,-05:00;,</value>
+  </data>
+  <data name="Cuba" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="EET" xml:space="preserve">
+    <value>+02:00,+03:00;,</value>
+  </data>
+  <data name="Egypt" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Eire" xml:space="preserve">
+    <value>+00:00,+01:00;,</value>
+  </data>
+  <data name="EST" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="EST5EDT" xml:space="preserve">
+    <value>-05:00,-04:00;,</value>
+  </data>
+  <data name="Etc/GMT" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Etc/GMT+0" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Etc/GMT+1" xml:space="preserve">
+    <value>-01:00,-01:00;,</value>
+  </data>
+  <data name="Etc/GMT+10" xml:space="preserve">
+    <value>-10:00,-10:00;,</value>
+  </data>
+  <data name="Etc/GMT+11" xml:space="preserve">
+    <value>-11:00,-11:00;,</value>
+  </data>
+  <data name="Etc/GMT+12" xml:space="preserve">
+    <value>-12:00,-12:00;,</value>
+  </data>
+  <data name="Etc/GMT+2" xml:space="preserve">
+    <value>-02:00,-02:00;,</value>
+  </data>
+  <data name="Etc/GMT+3" xml:space="preserve">
+    <value>-03:00,-03:00;,</value>
+  </data>
+  <data name="Etc/GMT+4" xml:space="preserve">
+    <value>-04:00,-04:00;,</value>
+  </data>
+  <data name="Etc/GMT+5" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="Etc/GMT+6" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="Etc/GMT+7" xml:space="preserve">
+    <value>-07:00,-07:00;,</value>
+  </data>
+  <data name="Etc/GMT+8" xml:space="preserve">
+    <value>-08:00,-08:00;,</value>
+  </data>
+  <data name="Etc/GMT+9" xml:space="preserve">
+    <value>-09:00,-09:00;,</value>
+  </data>
+  <data name="Etc/GMT-0" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Etc/GMT-1" xml:space="preserve">
+    <value>+01:00,+01:00;,</value>
+  </data>
+  <data name="Etc/GMT-10" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Etc/GMT-11" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Etc/GMT-12" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Etc/GMT-13" xml:space="preserve">
+    <value>+13:00,+13:00;,</value>
+  </data>
+  <data name="Etc/GMT-14" xml:space="preserve">
+    <value>+14:00,+14:00;,</value>
+  </data>
+  <data name="Etc/GMT-2" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="Etc/GMT-3" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Etc/GMT-4" xml:space="preserve">
+    <value>+04:00,+04:00;,</value>
+  </data>
+  <data name="Etc/GMT-5" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Etc/GMT-6" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Etc/GMT-7" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Etc/GMT-8" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Etc/GMT-9" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Etc/GMT0" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Etc/Greenwich" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Etc/UCT" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Etc/Universal" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Etc/UTC" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Etc/Zulu" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Europe/Amsterdam" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Andorra" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Athens" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Belfast" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Belgrade" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Berlin" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Bratislava" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Brussels" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Bucharest" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Budapest" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Busingen" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Chisinau" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Copenhagen" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Dublin" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Gibraltar" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Guernsey" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Helsinki" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Isle_of_Man" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Istanbul" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Jersey" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Kaliningrad" xml:space="preserve">
+    <value>+02:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Kiev" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Lisbon" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Ljubljana" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/London" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Luxembourg" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Madrid" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Malta" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Mariehamn" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Minsk" xml:space="preserve">
+    <value>+03:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Monaco" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Moscow" xml:space="preserve">
+    <value>+03:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Nicosia" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Oslo" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Paris" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Podgorica" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Prague" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Riga" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Rome" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Samara" xml:space="preserve">
+    <value>+04:00,+04:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/San_Marino" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Sarajevo" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Simferopol" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Skopje" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Sofia" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Stockholm" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Tallinn" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Tirane" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat,OctLastSun</value>
+  </data>
+  <data name="Europe/Tiraspol" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat,OctLastSun</value>
+  </data>
+  <data name="Europe/Uzhgorod" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat,OctLastSun</value>
+  </data>
+  <data name="Europe/Vaduz" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Vatican" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Vienna" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Vilnius" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Volgograd" xml:space="preserve">
+    <value>+03:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Warsaw" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Zagreb" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Zaporozhye" xml:space="preserve">
+    <value>+02:00,+03:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Europe/Zurich" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="GB" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="GB-Eire" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="GMT" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="GMT+0" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="GMT-0" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="GMT0" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Greenwich" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Hongkong" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="HST" xml:space="preserve">
+    <value>-10:00,-10:00;,</value>
+  </data>
+  <data name="Iceland" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Indian/Antananarivo" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Indian/Chagos" xml:space="preserve">
+    <value>+06:00,+06:00;,</value>
+  </data>
+  <data name="Indian/Christmas" xml:space="preserve">
+    <value>+07:00,+07:00;,</value>
+  </data>
+  <data name="Indian/Cocos" xml:space="preserve">
+    <value>+06:30,+06:30;,</value>
+  </data>
+  <data name="Indian/Comoro" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Indian/Kerguelen" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Indian/Mahe" xml:space="preserve">
+    <value>+04:00,+04:00;,</value>
+  </data>
+  <data name="Indian/Maldives" xml:space="preserve">
+    <value>+05:00,+05:00;,</value>
+  </data>
+  <data name="Indian/Mauritius" xml:space="preserve">
+    <value>+04:00,+04:00;,</value>
+  </data>
+  <data name="Indian/Mayotte" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="Indian/Reunion" xml:space="preserve">
+    <value>+04:00,+04:00;,</value>
+  </data>
+  <data name="Iran" xml:space="preserve">
+    <value>+03:30,+04:30;,</value>
+  </data>
+  <data name="Israel" xml:space="preserve">
+    <value>+02:00,+03:00;,</value>
+  </data>
+  <data name="Jamaica" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="Japan" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Kwajalein" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Libya" xml:space="preserve">
+    <value>+02:00,+02:00;,</value>
+  </data>
+  <data name="MET" xml:space="preserve">
+    <value>+01:00,+02:00;,</value>
+  </data>
+  <data name="Mexico/BajaNorte" xml:space="preserve">
+    <value>-08:00,-07:00;MarFirstSat,OctLastSun</value>
+  </data>
+  <data name="Mexico/BajaSur" xml:space="preserve">
+    <value>-07:00,-06:00;MarFirstSat,OctLastSun</value>
+  </data>
+  <data name="Mexico/General" xml:space="preserve">
+    <value>-06:00,-05:00;MarFirstSat,OctLastSun</value>
+  </data>
+  <data name="MST" xml:space="preserve">
+    <value>-07:00,-07:00;,</value>
+  </data>
+  <data name="MST7MDT" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="Navajo" xml:space="preserve">
+    <value>-07:00,-06:00;,</value>
+  </data>
+  <data name="NZ" xml:space="preserve">
+    <value>+12:00,+13:00;AprFirstSat,SepLastSun</value>
+  </data>
+  <data name="NZ-CHAT" xml:space="preserve">
+    <value>+12:45,+13:45;AprFirstSat,SepLastSun</value>
+  </data>
+  <data name="Pacific/Apia" xml:space="preserve">
+    <value>+13:00,+14:00;AprFirstSat,SepLastSun</value>
+  </data>
+  <data name="Pacific/Auckland" xml:space="preserve">
+    <value>+12:00,+13:00;,</value>
+  </data>
+  <data name="Pacific/Bougainville" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Pacific/Chatham" xml:space="preserve">
+    <value>+12:45,+13:45;,</value>
+  </data>
+  <data name="Pacific/Chuuk" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Pacific/Easter" xml:space="preserve">
+    <value>-05:00,-05:00;,</value>
+  </data>
+  <data name="Pacific/Efate" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Pacific/Enderbury" xml:space="preserve">
+    <value>+13:00,+13:00;,</value>
+  </data>
+  <data name="Pacific/Fakaofo" xml:space="preserve">
+    <value>+13:00,+13:00;,</value>
+  </data>
+  <data name="Pacific/Fiji" xml:space="preserve">
+    <value>+12:00,+13:00;JanThirdSat,NovFirstSun</value>
+  </data>
+  <data name="Pacific/Funafuti" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Pacific/Galapagos" xml:space="preserve">
+    <value>-06:00,-06:00;,</value>
+  </data>
+  <data name="Pacific/Gambier" xml:space="preserve">
+    <value>-09:00,-09:00;,</value>
+  </data>
+  <data name="Pacific/Guadalcanal" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Pacific/Guam" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Pacific/Honolulu" xml:space="preserve">
+    <value>-10:00,-10:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="Pacific/Johnston" xml:space="preserve">
+    <value>-10:00,-10:00;,</value>
+  </data>
+  <data name="Pacific/Kiritimati" xml:space="preserve">
+    <value>+14:00,+14:00;,</value>
+  </data>
+  <data name="Pacific/Kosrae" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Pacific/Kwajalein" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Pacific/Majuro" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Pacific/Marquesas" xml:space="preserve">
+    <value>-09:30,-09:30;,</value>
+  </data>
+  <data name="Pacific/Midway" xml:space="preserve">
+    <value>-11:00,-11:00;,</value>
+  </data>
+  <data name="Pacific/Nauru" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Pacific/Niue" xml:space="preserve">
+    <value>-11:00,-11:00;,</value>
+  </data>
+  <data name="Pacific/Norfolk" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Pacific/Noumea" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Pacific/Pago_Pago" xml:space="preserve">
+    <value>-11:00,-11:00;,</value>
+  </data>
+  <data name="Pacific/Palau" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Pacific/Pitcairn" xml:space="preserve">
+    <value>-08:00,-08:00;,</value>
+  </data>
+  <data name="Pacific/Pohnpei" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Pacific/Ponape" xml:space="preserve">
+    <value>+11:00,+11:00;,</value>
+  </data>
+  <data name="Pacific/Port_Moresby" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Pacific/Rarotonga" xml:space="preserve">
+    <value>-10:00,-10:00;,</value>
+  </data>
+  <data name="Pacific/Saipan" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Pacific/Samoa" xml:space="preserve">
+    <value>-11:00,-11:00;,</value>
+  </data>
+  <data name="Pacific/Tahiti" xml:space="preserve">
+    <value>-10:00,-10:00;,</value>
+  </data>
+  <data name="Pacific/Tarawa" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Pacific/Tongatapu" xml:space="preserve">
+    <value>+13:00,+13:00;,</value>
+  </data>
+  <data name="Pacific/Truk" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Pacific/Wake" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Pacific/Wallis" xml:space="preserve">
+    <value>+12:00,+12:00;,</value>
+  </data>
+  <data name="Pacific/Yap" xml:space="preserve">
+    <value>+10:00,+10:00;,</value>
+  </data>
+  <data name="Poland" xml:space="preserve">
+    <value>+01:00,+02:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Portugal" xml:space="preserve">
+    <value>+00:00,+01:00;,</value>
+  </data>
+  <data name="PRC" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="PST8PDT" xml:space="preserve">
+    <value>-08:00,-07:00;,</value>
+  </data>
+  <data name="ROC" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="ROK" xml:space="preserve">
+    <value>+09:00,+09:00;,</value>
+  </data>
+  <data name="Singapore" xml:space="preserve">
+    <value>+08:00,+08:00;,</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>+02:00,+03:00;,</value>
+  </data>
+  <data name="UCT" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="Universal" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="US/Alaska" xml:space="preserve">
+    <value>-09:00,-08:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Aleutian" xml:space="preserve">
+    <value>-10:00,-09:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Arizona" xml:space="preserve">
+    <value>-07:00,-07:00;,</value>
+  </data>
+  <data name="US/Central" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/East-Indiana" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Eastern" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Hawaii" xml:space="preserve">
+    <value>-10:00,-10:00;,</value>
+  </data>
+  <data name="US/Indiana-Starke" xml:space="preserve">
+    <value>-06:00,-05:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Michigan" xml:space="preserve">
+    <value>-05:00,-04:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Mountain" xml:space="preserve">
+    <value>-07:00,-06:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Pacific" xml:space="preserve">
+    <value>-08:00,-07:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Pacific-New" xml:space="preserve">
+    <value>-08:00,-07:00;MarSecondSat,NovFirstSun</value>
+  </data>
+  <data name="US/Samoa" xml:space="preserve">
+    <value>-11:00,-11:00;,</value>
+  </data>
+  <data name="UTC" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+  <data name="W-SU" xml:space="preserve">
+    <value>+03:00,+03:00;,</value>
+  </data>
+  <data name="WET" xml:space="preserve">
+    <value>+00:00,+01:00;MarLastSat, OctLastSun</value>
+  </data>
+  <data name="Zulu" xml:space="preserve">
+    <value>+00:00,+00:00;,</value>
+  </data>
+</root>

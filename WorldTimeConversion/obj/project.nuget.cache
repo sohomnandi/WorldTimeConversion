@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VRSh8Ukpczg=",
+  "success": true,
+  "projectFilePath": "D:\\VSNETProjects\\WorldTimeConversion - Original\\WorldTimeConversion\\WorldTimeConversion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\subha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\subha\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

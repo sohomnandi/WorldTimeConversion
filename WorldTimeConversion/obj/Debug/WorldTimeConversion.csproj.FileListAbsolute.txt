@@ -1,0 +1,5 @@
+D:\VSNETProjects\WorldTimeConversion - Original\WorldTimeConversion\obj\Debug\WorldTimeConversion.csproj.AssemblyReference.cache
+D:\VSNETProjects\WorldTimeConversion - Original\WorldTimeConversion\obj\Debug\MainWindow.g.cs
+D:\VSNETProjects\WorldTimeConversion - Original\WorldTimeConversion\obj\Debug\App.g.cs
+D:\VSNETProjects\WorldTimeConversion - Original\WorldTimeConversion\obj\Debug\WorldTimeConversion_MarkupCompile.cache
+D:\VSNETProjects\WorldTimeConversion - Original\WorldTimeConversion\obj\Debug\WorldTimeConversion_MarkupCompile.lref
